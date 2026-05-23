@@ -1,11 +1,17 @@
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
+
 function DefaultLayout() {
     return (
-        <>
+        <div className="min-h-screen flex flex-col">
             <Header />
-            <Outlet />
-        </>
+            <main className="flex-1 container mx-auto px-4 py-6 md:px-6">
+                <Outlet />
+            </main>
+            <Footer />
+        </div>
     )
 }
+
 export default DefaultLayout;
