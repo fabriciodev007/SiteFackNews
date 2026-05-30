@@ -1,12 +1,22 @@
 import { Outlet } from "react-router-dom";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import bgImage from "../assets/image-1.jpg";
 
 function DefaultLayout() {
     return (
-        <div className="min-h-screen flex flex-col">
+        <div
+            className="min-h-screen flex flex-col bg-cover bg-center bg-no-repeat"
+            style={{
+                backgroundImage: `url(${bgImage})`,
+                backgroundRepeat: 'no-repeat',
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundAttachment: 'scroll'
+            }}
+        >
             <Header />
-            <main className="flex-1 container mx-auto px-4 py-6 md:px-6">
+            <main className="flex-1 w-full">
                 <Outlet />
             </main>
             <Footer />

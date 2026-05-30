@@ -20,7 +20,7 @@ function Footer() {
                 </div>
 
                 <div className="redes-sociais mb-2">
-                    <a href="https://www.linkedin.com/in/your-profile" className="mx-2 hover:text-gray-400" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/fabricio-dias-de-lima" className="mx-2 hover:text-gray-400" target="_blank" rel="noopener noreferrer">
                         <span className="sr-only">LinkedIn</span>
                         <FontAwesomeIcon icon={faLinkedin} className="fa-lg" />
                     </a>
@@ -28,7 +28,7 @@ function Footer() {
                         <span className="sr-only">Twitter</span>
                         <FontAwesomeIcon icon={faTwitter} className="fa-lg" />
                     </a>
-                    <a href="https://www.github.com/your-profile" className="mx-2 hover:text-gray-400" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.github.com/fabriciodev007" className="mx-2 hover:text-gray-400" target="_blank" rel="noopener noreferrer">
                         <span className="sr-only">GitHub</span>
                         <FontAwesomeIcon icon={faGithub} className="fa-lg" />
                     </a>

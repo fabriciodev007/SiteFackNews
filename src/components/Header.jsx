@@ -8,7 +8,7 @@ function Header() {
     return (
         <header className="bg-gray-800 text-white">
             <div className="container mx-auto flex items-center justify-between px-4 py-4 md:px-6">
-                <Link to="/" className="text-2xl font-bold">FakeNews</Link>
+                <Link to="/" className="text-2xl font-bold">Papo&Saúde</Link>
 
                 <button
                     type="button"
